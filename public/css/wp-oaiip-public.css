@@ -1,0 +1,61 @@
+/* 
+* Public CSS for WP-OAIIP Plugin
+*/
+
+/* General styles for the plugin */
+.wp-oaiip {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for the AI generated content */
+.wp-oaiip .ai-content {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+}
+
+/* Styles for the AI performance dashboard */
+.wp-oaiip .dashboard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.wp-oaiip .dashboard .card {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Styles for the user interaction elements */
+.wp-oaiip .user-interaction {
+    margin-top: 20px;
+}
+
+.wp-oaiip .user-interaction .query-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+}
+
+.wp-oaiip .user-interaction .submit-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.wp-oaiip .user-interaction .submit-btn:hover {
+    background-color: #0056b3;
+}

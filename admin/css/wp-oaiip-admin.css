@@ -1,0 +1,65 @@
+/* admin/css/wp-oaiip-admin.css */
+
+/* General styles for the admin dashboard */
+.wp-oaiip-admin {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Styles for the plugin settings page */
+.wp-oaiip-settings {
+    margin: 20px;
+}
+
+.wp-oaiip-settings h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.wp-oaiip-settings .form-table {
+    width: 100%;
+    max-width: 600px;
+}
+
+.wp-oaiip-settings .form-table th {
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.wp-oaiip-settings .form-table td {
+    padding: 10px 0;
+}
+
+/* Styles for the AI performance dashboard */
+.wp-oaiip-dashboard {
+    margin: 20px;
+}
+
+.wp-oaiip-dashboard h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.wp-oaiip-dashboard .stat {
+    display: inline-block;
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.wp-oaiip-dashboard .stat:last-child {
+    margin-right: 0;
+}
+
+.wp-oaiip-dashboard .stat h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.wp-oaiip-dashboard .stat p {
+    margin: 0;
+}
